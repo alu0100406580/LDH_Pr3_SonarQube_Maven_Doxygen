@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['fuzzyselectionalphacutrcl_171',['fuzzySelectionAlphaCutRCL',['../classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p.html#ae9e0c35d7566b67a65fb0d2864066e37',1,'main::top::TOPTWGRASP']]],
-  ['fuzzyselectionbestfdrcl_172',['fuzzySelectionBestFDRCL',['../classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p.html#aa79d54723b8d6f7bd5dd93f1550d2810',1,'main::top::TOPTWGRASP']]]
+  ['fuzzyselectionalphacutrcl_169',['fuzzySelectionAlphaCutRCL',['../classtop_1_1_t_o_p_t_w_g_r_a_s_p.html#a717d4390dfb843bed804afb598e27a87',1,'top::TOPTWGRASP']]],
+  ['fuzzyselectionbestfdrcl_170',['fuzzySelectionBestFDRCL',['../classtop_1_1_t_o_p_t_w_g_r_a_s_p.html#aa921b046fab55b437ea10e5cc286c014',1,'top::TOPTWGRASP']]]
 ];
