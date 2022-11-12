@@ -1,0 +1,56 @@
+@options
+@packages
+-classpath
+'/home/phillipmc/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/phillipmc/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.7'
+-sourcepath
+'/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/src/main/java:/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2022. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'Archetype - Pr3ExposiTOPMaven 0.0.1-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/7/docs/api' '/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'Archetype - Pr3ExposiTOPMaven 0.0.1-SNAPSHOT API'
+es.ull.esit.utils
+es.ull.esit.utilities
+top
+/home/phillipmc/.m2/repository/junit/junit/4.11/junit-4.11.jar = 1667473109880
+/home/phillipmc/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar = 1667473109960
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/src/main/java = 1668270041522
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/generated-sources/annotations = 1668276507289
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/overview-tree.html = 1668276511633
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/allclasses.html = 1668276511657
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/jquery-ui.overrides.css = 1668276511665
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/overview-summary.html = 1668276511657
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/element-list = 1668276511605
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/allpackages-index.html = 1668276511653
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/member-search-index.zip = 1668276511649
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/search.js = 1668276511661
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/index.html = 1668276511657
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/member-search-index.js = 1668276511649
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/allclasses-index.html = 1668276511653
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/index-all.html = 1668276511649
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/package-search-index.zip = 1668276511649
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/type-search-index.js = 1668276511649
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/package-search-index.js = 1668276511649
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/type-search-index.zip = 1668276511649
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/script.js = 1668276511661
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/deprecated-list.html = 1668276511657
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/help-doc.html = 1668276511661
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/stylesheet.css = 1668276511661
+/home/phillipmc/eclipse22-06/ws/Pr3ExposiTOPMaven/target/site/apidocs/constant-values.html = 1668276511613

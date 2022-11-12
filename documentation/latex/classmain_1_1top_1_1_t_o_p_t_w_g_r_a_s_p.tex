@@ -1,0 +1,134 @@
+\hypertarget{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p}{}\doxysection{main.\+top.\+TOPTWGRASP Class Reference}
+\label{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p}\index{main.top.TOPTWGRASP@{main.top.TOPTWGRASP}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a98ec8173818c285a551c4a5c8159fc17}{TOPTWGRASP}} (\mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_solution}{TOPTWSolution}} sol)
+\item 
+void \mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a1f67824c2e7ea31654bae4793213a61a}{GRASP}} (int max\+Iterations, int max\+Size\+RCL)
+\item 
+int \mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ac6636883b06d5f8421d7e9715fb300e5}{aleatory\+Selection\+RCL}} (int max\+TRCL)
+\item 
+int \mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_aa79d54723b8d6f7bd5dd93f1550d2810}{fuzzy\+Selection\+Best\+FDRCL}} (Array\+List$<$ double\mbox{[}$\,$\mbox{]} $>$ rcl)
+\item 
+int \mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ae9e0c35d7566b67a65fb0d2864066e37}{fuzzy\+Selection\+Alpha\+Cut\+RCL}} (Array\+List$<$ double\mbox{[}$\,$\mbox{]} $>$ rcl, double alpha)
+\item 
+void \mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a85a9a6b9b0c8158fa4a08ecc63a6f932}{compute\+Greedy\+Solution}} (int max\+Size\+RCL)
+\item 
+void \mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a411a01e1faca21707081c384eb133086}{update\+Solution}} (double\mbox{[}$\,$\mbox{]} candidate\+Selected, Array\+List$<$ Array\+List$<$ Double $>$ $>$ departure\+Times)
+\item 
+Array\+List$<$ double\mbox{[}$\,$\mbox{]} $>$ \mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a2790f34e9cba651cc55f6c113a17403e}{comprehensive\+Evaluation}} (Array\+List$<$ Integer $>$ customers, Array\+List$<$ Array\+List$<$ Double $>$ $>$ departure\+Times)
+\item 
+\mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_solution}{TOPTWSolution}} \mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a1718f9361b1fc966030539fc623b1fca}{get\+Solution}} ()
+\item 
+void \mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a51a19fae5828fb05be5d035bd0ce00a6}{set\+Solution}} (\mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_solution}{TOPTWSolution}} solution)
+\item 
+int \mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ac6bc007d5043d8032be3786cb77194f2}{get\+Solution\+Time}} ()
+\item 
+void \mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ae7cbc3b0bbc6f998b44eb3817c595a00}{set\+Solution\+Time}} (int solution\+Time)
+\item 
+double \mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ad7f714f5e2c1c12f70a31c4decda535f}{get\+Max\+Score}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static double \mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a9f2d5321de2762e6f560181c638f9ce0}{NO\+\_\+\+EVALUATED}} = -\/1.\+0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a98ec8173818c285a551c4a5c8159fc17}\label{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a98ec8173818c285a551c4a5c8159fc17}} 
+\index{main.top.TOPTWGRASP@{main.top.TOPTWGRASP}!TOPTWGRASP@{TOPTWGRASP}}
+\index{TOPTWGRASP@{TOPTWGRASP}!main.top.TOPTWGRASP@{main.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{TOPTWGRASP()}{TOPTWGRASP()}}
+{\footnotesize\ttfamily main.\+top.\+TOPTWGRASP.\+TOPTWGRASP (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_solution}{TOPTWSolution}}}]{sol }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ac6636883b06d5f8421d7e9715fb300e5}\label{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ac6636883b06d5f8421d7e9715fb300e5}} 
+\index{main.top.TOPTWGRASP@{main.top.TOPTWGRASP}!aleatorySelectionRCL@{aleatorySelectionRCL}}
+\index{aleatorySelectionRCL@{aleatorySelectionRCL}!main.top.TOPTWGRASP@{main.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{aleatorySelectionRCL()}{aleatorySelectionRCL()}}
+{\footnotesize\ttfamily int main.\+top.\+TOPTWGRASP.\+aleatory\+Selection\+RCL (\begin{DoxyParamCaption}\item[{int}]{max\+TRCL }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a2790f34e9cba651cc55f6c113a17403e}\label{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a2790f34e9cba651cc55f6c113a17403e}} 
+\index{main.top.TOPTWGRASP@{main.top.TOPTWGRASP}!comprehensiveEvaluation@{comprehensiveEvaluation}}
+\index{comprehensiveEvaluation@{comprehensiveEvaluation}!main.top.TOPTWGRASP@{main.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{comprehensiveEvaluation()}{comprehensiveEvaluation()}}
+{\footnotesize\ttfamily Array\+List$<$ double\mbox{[}$\,$\mbox{]} $>$ main.\+top.\+TOPTWGRASP.\+comprehensive\+Evaluation (\begin{DoxyParamCaption}\item[{Array\+List$<$ Integer $>$}]{customers,  }\item[{Array\+List$<$ Array\+List$<$ Double $>$ $>$}]{departure\+Times }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a85a9a6b9b0c8158fa4a08ecc63a6f932}\label{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a85a9a6b9b0c8158fa4a08ecc63a6f932}} 
+\index{main.top.TOPTWGRASP@{main.top.TOPTWGRASP}!computeGreedySolution@{computeGreedySolution}}
+\index{computeGreedySolution@{computeGreedySolution}!main.top.TOPTWGRASP@{main.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{computeGreedySolution()}{computeGreedySolution()}}
+{\footnotesize\ttfamily void main.\+top.\+TOPTWGRASP.\+compute\+Greedy\+Solution (\begin{DoxyParamCaption}\item[{int}]{max\+Size\+RCL }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ae9e0c35d7566b67a65fb0d2864066e37}\label{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ae9e0c35d7566b67a65fb0d2864066e37}} 
+\index{main.top.TOPTWGRASP@{main.top.TOPTWGRASP}!fuzzySelectionAlphaCutRCL@{fuzzySelectionAlphaCutRCL}}
+\index{fuzzySelectionAlphaCutRCL@{fuzzySelectionAlphaCutRCL}!main.top.TOPTWGRASP@{main.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{fuzzySelectionAlphaCutRCL()}{fuzzySelectionAlphaCutRCL()}}
+{\footnotesize\ttfamily int main.\+top.\+TOPTWGRASP.\+fuzzy\+Selection\+Alpha\+Cut\+RCL (\begin{DoxyParamCaption}\item[{Array\+List$<$ double\mbox{[}$\,$\mbox{]} $>$}]{rcl,  }\item[{double}]{alpha }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_aa79d54723b8d6f7bd5dd93f1550d2810}\label{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_aa79d54723b8d6f7bd5dd93f1550d2810}} 
+\index{main.top.TOPTWGRASP@{main.top.TOPTWGRASP}!fuzzySelectionBestFDRCL@{fuzzySelectionBestFDRCL}}
+\index{fuzzySelectionBestFDRCL@{fuzzySelectionBestFDRCL}!main.top.TOPTWGRASP@{main.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{fuzzySelectionBestFDRCL()}{fuzzySelectionBestFDRCL()}}
+{\footnotesize\ttfamily int main.\+top.\+TOPTWGRASP.\+fuzzy\+Selection\+Best\+FDRCL (\begin{DoxyParamCaption}\item[{Array\+List$<$ double\mbox{[}$\,$\mbox{]} $>$}]{rcl }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ad7f714f5e2c1c12f70a31c4decda535f}\label{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ad7f714f5e2c1c12f70a31c4decda535f}} 
+\index{main.top.TOPTWGRASP@{main.top.TOPTWGRASP}!getMaxScore@{getMaxScore}}
+\index{getMaxScore@{getMaxScore}!main.top.TOPTWGRASP@{main.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{getMaxScore()}{getMaxScore()}}
+{\footnotesize\ttfamily double main.\+top.\+TOPTWGRASP.\+get\+Max\+Score (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a1718f9361b1fc966030539fc623b1fca}\label{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a1718f9361b1fc966030539fc623b1fca}} 
+\index{main.top.TOPTWGRASP@{main.top.TOPTWGRASP}!getSolution@{getSolution}}
+\index{getSolution@{getSolution}!main.top.TOPTWGRASP@{main.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{getSolution()}{getSolution()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_solution}{TOPTWSolution}} main.\+top.\+TOPTWGRASP.\+get\+Solution (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ac6bc007d5043d8032be3786cb77194f2}\label{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ac6bc007d5043d8032be3786cb77194f2}} 
+\index{main.top.TOPTWGRASP@{main.top.TOPTWGRASP}!getSolutionTime@{getSolutionTime}}
+\index{getSolutionTime@{getSolutionTime}!main.top.TOPTWGRASP@{main.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{getSolutionTime()}{getSolutionTime()}}
+{\footnotesize\ttfamily int main.\+top.\+TOPTWGRASP.\+get\+Solution\+Time (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a1f67824c2e7ea31654bae4793213a61a}\label{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a1f67824c2e7ea31654bae4793213a61a}} 
+\index{main.top.TOPTWGRASP@{main.top.TOPTWGRASP}!GRASP@{GRASP}}
+\index{GRASP@{GRASP}!main.top.TOPTWGRASP@{main.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{GRASP()}{GRASP()}}
+{\footnotesize\ttfamily void main.\+top.\+TOPTWGRASP.\+GRASP (\begin{DoxyParamCaption}\item[{int}]{max\+Iterations,  }\item[{int}]{max\+Size\+RCL }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a51a19fae5828fb05be5d035bd0ce00a6}\label{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a51a19fae5828fb05be5d035bd0ce00a6}} 
+\index{main.top.TOPTWGRASP@{main.top.TOPTWGRASP}!setSolution@{setSolution}}
+\index{setSolution@{setSolution}!main.top.TOPTWGRASP@{main.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{setSolution()}{setSolution()}}
+{\footnotesize\ttfamily void main.\+top.\+TOPTWGRASP.\+set\+Solution (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classmain_1_1top_1_1_t_o_p_t_w_solution}{TOPTWSolution}}}]{solution }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ae7cbc3b0bbc6f998b44eb3817c595a00}\label{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_ae7cbc3b0bbc6f998b44eb3817c595a00}} 
+\index{main.top.TOPTWGRASP@{main.top.TOPTWGRASP}!setSolutionTime@{setSolutionTime}}
+\index{setSolutionTime@{setSolutionTime}!main.top.TOPTWGRASP@{main.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{setSolutionTime()}{setSolutionTime()}}
+{\footnotesize\ttfamily void main.\+top.\+TOPTWGRASP.\+set\+Solution\+Time (\begin{DoxyParamCaption}\item[{int}]{solution\+Time }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a411a01e1faca21707081c384eb133086}\label{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a411a01e1faca21707081c384eb133086}} 
+\index{main.top.TOPTWGRASP@{main.top.TOPTWGRASP}!updateSolution@{updateSolution}}
+\index{updateSolution@{updateSolution}!main.top.TOPTWGRASP@{main.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{updateSolution()}{updateSolution()}}
+{\footnotesize\ttfamily void main.\+top.\+TOPTWGRASP.\+update\+Solution (\begin{DoxyParamCaption}\item[{double\mbox{[}$\,$\mbox{]}}]{candidate\+Selected,  }\item[{Array\+List$<$ Array\+List$<$ Double $>$ $>$}]{departure\+Times }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a9f2d5321de2762e6f560181c638f9ce0}\label{classmain_1_1top_1_1_t_o_p_t_w_g_r_a_s_p_a9f2d5321de2762e6f560181c638f9ce0}} 
+\index{main.top.TOPTWGRASP@{main.top.TOPTWGRASP}!NO\_EVALUATED@{NO\_EVALUATED}}
+\index{NO\_EVALUATED@{NO\_EVALUATED}!main.top.TOPTWGRASP@{main.top.TOPTWGRASP}}
+\doxysubsubsection{\texorpdfstring{NO\_EVALUATED}{NO\_EVALUATED}}
+{\footnotesize\ttfamily double main.\+top.\+TOPTWGRASP.\+NO\+\_\+\+EVALUATED = -\/1.\+0\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/top/\mbox{\hyperlink{_t_o_p_t_w_g_r_a_s_p_8java}{TOPTWGRASP.\+java}}\end{DoxyCompactItemize}
